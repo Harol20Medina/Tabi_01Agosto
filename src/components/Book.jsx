@@ -132,7 +132,6 @@ function Book() {
                       src={current.src}
                       autoPlay
                       loop
-                      muted
                       playsInline
                       controls
                       className="w-full h-full object-cover absolute inset-0 rounded-xl"
