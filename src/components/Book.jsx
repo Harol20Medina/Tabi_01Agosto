@@ -24,7 +24,7 @@ const pages = [
   },
   {
     image: "/img/img6.jpeg",
-    phrase: "No eres solo mi amiga, eres mi familia elegida. Y elegirte fue lo mejor que hice.",
+    phrase: "Ella es la mujer mas brillante de su edad que he conocido. - Ron Weasley hablando de Hermione, y yo hablando de ti.",
   },
   {
     image: "/img/img7.jpeg",
