@@ -4,23 +4,23 @@ import { motion, AnimatePresence } from 'framer-motion'
 const pages = [
   {
     image: "/img/img1.jpeg",
-    phrase: "Hoy no es tu cumple, pero queria recordarte lo importante que eres para mi. No necesito una fecha para decirtelo.",
+    phrase: "Hoy es un buen dia para recordarte que eres la mejor amiga que alguien puede tener. Asi de simple.",
   },
   {
     image: "/img/img2.jpeg",
-    phrase: "De todas las personas que he conocido, tu eres con quien puedo ser yo mismo sin miedo. Eso no tiene precio.",
+    phrase: "Contigo puedo ser yo mismo, decir estupideces y saber que no me vas a juzgar. Eso vale mucho.",
   },
   {
     image: "/img/img3.jpeg",
-    phrase: "Siempre que la vida se pone dificil, se que puedo contar contigo. Eso no lo olvido nunca.",
+    phrase: "Siempre estas ahi cuando necesito hablar o simplemente cuando necesito que alguien me aguante. Gracias por eso.",
   },
   {
     image: "/img/img4.jpeg",
-    phrase: "Me da igual si pasan dias o semanas sin hablar, cuando nos vemos es como si nada hubiera cambiado.",
+    phrase: "Podemos pasar dias sin hablar y cuando nos vemos es como si nada. Eso es amistad de verdad.",
   },
   {
     image: "/img/img5.jpeg",
-    phrase: "Gracias por aguantarme, por escucharme y por siempre estar ahi aunque no te lo pida.",
+    phrase: "Eres de esas personas que se cuentan con una mano. Y yo tengo suerte de tenerte en la mia.",
   },
   {
     image: "/img/img6.jpeg",
