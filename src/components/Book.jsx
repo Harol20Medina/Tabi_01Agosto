@@ -24,7 +24,7 @@ const pages = [
   },
   {
     image: "/img/img6.jpeg",
-    phrase: "Ella es la mujer mas brillante de su edad que he conocido. - Ron Weasley hablando de Hermione, y yo hablando de ti.",
+    phrase: "Dumbledore dijo que el amor es la magia mas poderosa que existe. Y el de mejores amigos es prueba de eso.",
   },
   {
     image: "/img/img7.jpeg",
