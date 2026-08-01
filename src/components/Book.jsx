@@ -4,23 +4,23 @@ import { motion, AnimatePresence } from 'framer-motion'
 const pages = [
   {
     image: "/img/img1.jpeg",
-    phrase: "Llegaste sin avisar y te convertiste en la persona que no sabia que necesitaba. Hoy celebro tenerte.",
+    phrase: "Hoy no es tu cumple, pero queria recordarte lo importante que eres para mi. No necesito una fecha para decirtelo.",
   },
   {
     image: "/img/img2.jpeg",
-    phrase: "Contigo aprendi que la amistad verdadera no necesita filtros. Solo necesita ser real, como nosotros.",
+    phrase: "De todas las personas que he conocido, tu eres con quien puedo ser yo mismo sin miedo. Eso no tiene precio.",
   },
   {
     image: "/img/img3.jpeg",
-    phrase: "Eres a quien llamo cuando el mundo se pone raro. Mi calma en medio del caos.",
+    phrase: "Siempre que la vida se pone dificil, se que puedo contar contigo. Eso no lo olvido nunca.",
   },
   {
     image: "/img/img4.jpeg",
-    phrase: "No importa cuanto tiempo pase, cuando estamos juntos es como si el tiempo no existiera.",
+    phrase: "Me da igual si pasan dias o semanas sin hablar, cuando nos vemos es como si nada hubiera cambiado.",
   },
   {
     image: "/img/img5.jpeg",
-    phrase: "Gracias por reir conmigo en los buenos momentos y por quedarte en los que nadie mas se quedo.",
+    phrase: "Gracias por aguantarme, por escucharme y por siempre estar ahi aunque no te lo pida.",
   },
   {
     image: "/img/img6.jpeg",
