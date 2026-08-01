@@ -8,7 +8,7 @@ const pages = [
   },
   {
     image: "/img/img2.jpeg",
-    phrase: "Contigo aprendi que la amistad verdadera no necesita filtros. Solo necesita ser real, como nosotras.",
+    phrase: "Contigo aprendi que la amistad verdadera no necesita filtros. Solo necesita ser real, como nosotros.",
   },
   {
     image: "/img/img3.jpeg",
@@ -16,7 +16,7 @@ const pages = [
   },
   {
     image: "/img/img4.jpeg",
-    phrase: "No importa cuanto tiempo pase, cuando estamos juntas es como si el tiempo no existiera.",
+    phrase: "No importa cuanto tiempo pase, cuando estamos juntos es como si el tiempo no existiera.",
   },
   {
     image: "/img/img5.jpeg",
