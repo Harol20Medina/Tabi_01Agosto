@@ -10,17 +10,17 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(160deg, #2d1b69 0%, #11998e 50%, #38ef7d 100%);
+  background: linear-gradient(150deg, #0a192f 0%, #112240 40%, #1a365d 100%);
   font-family: 'Playfair Display', serif;
 }
 
-@keyframes heartbeat {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.08); }
+@keyframes pulse-soft {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
 }
 
-.heartbeat {
-  animation: heartbeat 2s ease-in-out infinite;
+.pulse-soft {
+  animation: pulse-soft 2.5s ease-in-out infinite;
 }
 
 ::-webkit-scrollbar {

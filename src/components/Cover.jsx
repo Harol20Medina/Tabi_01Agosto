@@ -3,41 +3,70 @@ import { motion } from 'framer-motion'
 function Cover({ onOpen }) {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.5 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6 }}
       className="flex flex-col items-center justify-center min-h-screen px-5"
     >
-      <div className="bg-white/10 backdrop-blur-md rounded-3xl p-10 md:p-14 text-center w-full max-w-sm md:max-w-md border border-white/20 shadow-xl">
+      <div className="text-center w-full max-w-sm md:max-w-md">
 
-        <div className="w-20 h-20 mx-auto mb-8 rounded-full bg-white/10 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-white heartbeat">
-            <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
-          </svg>
-        </div>
-
-        <h1 className="font-cursive text-4xl md:text-5xl text-white mb-6 leading-tight">
-          Feliz Dia Mejor Amiga
-        </h1>
-
-        <p className="font-serif text-white/70 text-base md:text-lg mb-1">
-          No tendras novio...
-        </p>
-        <p className="font-serif text-white/90 text-base md:text-lg mb-6">
-          pero hoy no seras espectadora
-        </p>
-
-        <p className="font-cursive text-white/60 text-lg mb-10">
-          1 de Agosto
-        </p>
-
-        <button
-          onClick={onOpen}
-          className="w-full bg-white text-gray-800 font-serif text-base md:text-lg px-8 py-4 rounded-full shadow-lg transition-all duration-300 hover:scale-[1.03] active:scale-95 hover:shadow-xl"
+        {/* Icon */}
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ delay: 0.3, type: "spring", stiffness: 200 }}
+          className="w-20 h-20 mx-auto mb-10 rounded-2xl bg-blue-500/10 border border-blue-400/20 flex items-center justify-center"
         >
-          Abrir mi sorpresa
-        </button>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-blue-400 pulse-soft">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+          </svg>
+        </motion.div>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="font-cursive text-5xl md:text-7xl text-white mb-3"
+        >
+          Para Ti
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7 }}
+          className="font-cursive text-3xl md:text-4xl text-blue-300 mb-8"
+        >
+          Tabi
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.9 }}
+          className="space-y-1 mb-10"
+        >
+          <p className="text-white/60 text-sm uppercase tracking-widest">
+            Feliz dia mejor amiga
+          </p>
+          <p className="text-white/80 text-base md:text-lg font-serif mt-3">
+            No tendras novio... pero hoy no seras espectadora
+          </p>
+          <p className="text-blue-400/60 text-sm font-mono mt-4">
+            01.08.2026
+          </p>
+        </motion.div>
+
+        <motion.button
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.1 }}
+          onClick={onOpen}
+          className="bg-blue-500 hover:bg-blue-600 text-white font-serif text-sm md:text-base px-10 py-4 rounded-full transition-all duration-300 hover:scale-[1.03] active:scale-95 shadow-lg shadow-blue-500/20"
+        >
+          Abrir sorpresa
+        </motion.button>
       </div>
     </motion.div>
   )
